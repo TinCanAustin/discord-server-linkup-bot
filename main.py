@@ -64,4 +64,4 @@ async def test(interaction: discord.Interaction):
     channel_id = await get_message("server", str(interaction.guild_id))
     await interaction.response.send_message(f"{channel_id}")
 
-bot.run("MTI3NDY3NjU4NjMwNTY4NzU3NQ.GAZSsu.U5ewAZ1mPtHwjjmBRp67jZ6fy8sjn-Fod6ldew")
+bot.run("")
